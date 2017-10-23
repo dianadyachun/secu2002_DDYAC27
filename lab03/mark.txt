@@ -1,0 +1,6 @@
+
+mark: 3
+
+notes:
+-in swap.py, no need to set z = 0 outside body of if statement
+-please see the solution for hangman.py
