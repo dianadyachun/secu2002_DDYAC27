@@ -1,0 +1,8 @@
+
+mark: 2
+
+notes:
+-for task 1, separator shouldn't be added to the end of the string
+-for the dna task, it's probably best to test on some valid dna strands, and
+ to test functions other than reverse_dna. as it's written the comp_dna
+ function throws an error when run on dna1

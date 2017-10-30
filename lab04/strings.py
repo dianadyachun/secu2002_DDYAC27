@@ -22,10 +22,10 @@ print my_join('*',['a','s','r'] )
 def sort_string(my_string):
     #list command converts a string into a list
     mylist = list(my_string)
-    print mylist
+    #print mylist
     #sort command sorts the variables in the list alphabetically
     mylist.sort()
-    print mylist
+    #print mylist
     #creating an empty string
     s = ''
     #joining the variables in the list
@@ -115,6 +115,9 @@ def comp_dna(dna):
 print 'complement should be\t', 'tacgttaacgttaagcatcg'
 print 'complement is\t\t', comp_dna(dna)
 print '------------'
+
+print 'complement is\t\t', comp_dna(dna1)
+print 'complement is\t\t', comp_dna(dna2)
 
 
 #######################
