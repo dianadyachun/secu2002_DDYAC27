@@ -1,0 +1,12 @@
+
+mark: 3
+
+notes:
+-in filter.py, instructions said to define the lambda part in a function.
+ could have done more testing
+-in map.py, this isn't the right formula for fahrenheit-celsius conversion
+-in theft.py, good idea to print stuff out, and if you had done more of this
+ in the function you defined you might have seen the issue, which is that you
+ were iterating over a list of dictionaries but not accessing the values in
+ those dictionaries. to fix this you just need to use text[x]['text'] in your
+ if statements. please let me know if this doesn't make sense
